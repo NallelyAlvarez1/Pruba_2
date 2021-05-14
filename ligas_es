@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <link href="style.css" rel="stylesheet" type="text/css">
+
     <title>Ligas de España</title>
     <!-- Barra de navegacion-->
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
@@ -50,31 +52,37 @@
         <div class="card mb-3">
             <div class="card-body">
                 <h1 class="card-title text-center">Ligas de España</h1>
-                <p class="card-text">Se muestran todas ligas que posee España y algunos detalles de estas como su nombre, descripción y tipo
+                <p class="card-text">Se muestran todas ligas que posee España y algunos detalles de estas como su
+                    nombre, descripción y tipo
                     de deporte.
                 </p>
-                <p class="card-text"><small class="text-muted">*Para ver las ligas debes apretar el boton que dice 'ESPAÑA'</small></p>
-                <img src="https://as.com/tikitakas/imagenes/2017/03/30/portada/1490861200_690715_1490861294_noticia_normal.jpg" 
-                class="card-img-top" alt="collage de los diversos deportes presentes en España">
+                <p class="card-text"><small class="text-muted">*Para ver las ligas debes apretar el boton que dice
+                        'ESPAÑA'</small></p>
+                <img src="https://as.com/tikitakas/imagenes/2017/03/30/portada/1490861200_690715_1490861294_noticia_normal.jpg"
+                    class="card-img-top" alt="collage de los diversos deportes presentes en España">
             </div>
         </div>
     </div>
     <div class="container-sm mt-4 mb-4">
-        <div class="row">
-            <button type="button" class="btn btn-primary" id="enviar">España</button>
-        </div>
-        <div class="row">
-            <table class="table" id="ligas">
-                <thead>
-                    <tr>
-                        <th scope="col">Id</th>
-                        <th scope="col">Tipo de deporte</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Nombre Alternativo</th>
-                        <th scope="col">Descripción</th>
-                    </tr>
-                </thead>
-            </table>
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="row">
+                    <button type="button" class="btn btn-primary" id="enviar">España</button>
+                </div>
+                <div class="row">
+                    <table class="table" id="ligas">
+                        <thead>
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Tipo de deporte</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Nombre Alternativo</th>
+                                <th scope="col">Descripción</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 
